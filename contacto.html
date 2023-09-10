@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Clinica Veterinaria</title>
+</head>
+<body>
+    <a href="https://wa.me/#?text=" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+    <header id="cabeza">
+        <div class="content">
+            <img src="img/perro.png" alt="Logo clinvet" id="logo">
+
+            <nav>
+                <a href="index.html" id="link1">Inicio</a>
+                <a href="nosotros.html" id="link2">Nosotros</a>
+                <a href="servicios.html" id="link3">Servicios</a>
+                <a href="contacto.html" id="link4">Contacto</a>
+
+                <div class="clearfix"></div>
+
+            </nav>
+        </div>
+    </header>
+<section class="content">
+    <h1>Contactanos</h1>
+    <br>
+    <p>Nos puedes escribir cualquier duda y te atenderemos a la brevedad</p>
+    <form>
+    <input type="text" class="input-formulario" placeholder="Nombre:">
+    <input type="text" class="input-formulario" placeholder="Correo:">
+
+<textarea class="input-formulario" placeholder="Escribe tu mensaje..."></textarea>
+  <div class="clearfix"></div> 
+
+<input type="button" value="Enviar">
+
+<div class="clearfix"></div> 
+
+</form>
+</section>
+<section class="content">
+    <div class="descripcionPetco">
+<h1></h1>
+<h3></h3>
+<p></p>
+<div class="clearfix"></div>
+</div>
+<div class="container">
+    <div class="price">
+        <h1>Formas de Pago</h1>
+    </div>
+    <div class="card__container">
+        <div class="card">
+            <div class="mercadopago">
+                <div class="left">
+                    <input id="mp" type="radio" name="payment" />
+                    <div class="radio"></div>
+                    <label for="mp"></label>
+                </div>
+                <div class="right">
+                    <img src="img/Mercado-Pago-Logo.png" alt="mercadopago" />
+                </div>
+            </div>
+            <div class="credito">
+                <div class="left">
+                    <input id="cd" type="radio" name="pago" />
+                    <div class="radio"></div>
+                    <label for="cd"></label>
+                </div>
+                <div class="right">
+                    <img src="img/mastercard.png" alt="mastercard" />
+                    <img src="img/visa.png" alt="visa" />
+                    <img src="img/Maestro.png" alt="maestro" />
+                </div>
+            </div>
+            <br>
+            <div class="espacio">
+                <div class="info">
+                    <label for="espacionombre">Nombre</label>
+                    <input placeholder="" id="espacionombre" type="texto" />
+                </div>
+            </div>
+            <div class="numero">
+                <div class="info">
+                    <label for="numero">Numero Tarjeta</label>
+                    <input id="numero" type="texto" pattern="[0-9]{16,19}" maxlength="19" placeholder=""/>
+                </div>
+            </div>
+            <div class="detalles">
+                <div class="left">
+                    <label for="fechavencimiento">Vencimiento</label>
+                    <select id="fechavencimiento">
+                        <option>Mes</option>
+                        <option value="1">01</option>
+                        <option value="2">02</option>
+                        <option value="3">03</option>
+                        <option value="4">04</option>
+                        <option value="5">05</option>
+                        <option value="6">06</option>
+                        <option value="7">07</option>
+                        <option value="8">08</option>
+                        <option value="9">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                    <span>/</span>
+                     <select id="fechavencimiento">
+                        <option>Año</option>
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                        <option value="2025">2025</option>
+                        <option value="2026">2026</option>
+                        <option value="2027">2027</option>
+                        <option value="2028">2028</option>
+                        <option value="2029">2029</option>
+                        <option value="2030">2030</option>
+                    </select>
+                </div>
+                <div class="right">
+                    <label for="cvv">CVC/CVV</label>
+                    <input type="texto" maxlength="4" placeholder=""/>
+                    <span data-balloon-length="medium" data-balloon="Los 3 digitos del reverso de su tarjeta" data-balloon-pos="up">i</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    
+        <input type="button" value="Confirmar y pagar">
+        <div class="clearfix"></div> 
+    </div>
+</div>
+</section>
+
+<footer>
+    <p>Copyright © jul 2023 | Todos los derechos reservados. San Nicolas</p>
+    <i class='bx bxl-facebook'></i>
+    <i class='bx bxl-instagram'></i>
+</footer>
+
+</body>
+</html>
